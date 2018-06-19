@@ -31,7 +31,7 @@ puts "There are #{letter_count} in #{big_word}"
 
 bigger_word = "supercalifragilisticexpialidociouswowmom"
 
-"new_letter_count" = bigger_word.size
+"new_letter_count" = #{bigger_word.length}
 
 puts "There are now #{new_letter_count} in #{bigger_word}"
 
@@ -39,13 +39,13 @@ puts "There are now #{new_letter_count} in #{bigger_word}"
 
 proper_sentence = "i really like programming." # Put a . after the string to capitalize it properly.
 
-puts proper_sentence
+puts #{proper_sentence}.capitalize
 
 # Challenge 7: String Switcheroo
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = sentence # Add your gsub chain here
+sentence = #{sentence} # Add your gsub chain here
 
 puts sentence
